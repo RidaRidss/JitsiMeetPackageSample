@@ -1,7 +1,7 @@
 # JitsiMeetPackageSample
 `jitsi meet in app call sample based on react native`
 
-### Note : This sample is open source to all jitsi meet users who are facing issues with jitsi meet sdk or jitsi meet library versions/any type of configuration,
+`Note : This sample is open source to all jitsi meet users who are facing issues with jitsi meet sdk or jitsi meet library versions/any type of configuration`
 
 ### This is an open source RND Repo , Anyone can contribute
 
