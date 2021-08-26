@@ -16,10 +16,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* JitsiMeetPackageSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* JitsiMeetPackageSampleTests.m */; };
-		8316F8B702809E52C9ECB8AC /* libPods-JitsiMeetPackageSample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 132BCFDF87CA670CE83CF46B /* libPods-JitsiMeetPackageSample-tvOS.a */; };
 		BBBB066FAA3277F6ACC79720 /* libPods-JitsiMeetPackageSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B853BC7F20995824628C55F4 /* libPods-JitsiMeetPackageSample.a */; };
-		DBB848AE3D8A3220610CB682 /* libPods-JitsiMeetPackageSample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73131E22B845CB6B7A10BED8 /* libPods-JitsiMeetPackageSample-tvOSTests.a */; };
-		EC25C421FF68F0828606D97A /* libPods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A986E2B3A4A1FB5F1F7F283B /* libPods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +42,6 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* JitsiMeetPackageSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JitsiMeetPackageSampleTests.m; sourceTree = "<group>"; };
 		06A83925740235756653CE32 /* Pods-JitsiMeetPackageSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitsiMeetPackageSample.debug.xcconfig"; path = "Target Support Files/Pods-JitsiMeetPackageSample/Pods-JitsiMeetPackageSample.debug.xcconfig"; sourceTree = "<group>"; };
-		132BCFDF87CA670CE83CF46B /* libPods-JitsiMeetPackageSample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JitsiMeetPackageSample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* JitsiMeetPackageSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JitsiMeetPackageSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = JitsiMeetPackageSample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = JitsiMeetPackageSample/AppDelegate.m; sourceTree = "<group>"; };
@@ -55,18 +51,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = JitsiMeetPackageSample/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* JitsiMeetPackageSample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JitsiMeetPackageSample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* JitsiMeetPackageSample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JitsiMeetPackageSample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E9CE48C8159578611A7D64 /* Pods-JitsiMeetPackageSample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitsiMeetPackageSample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-JitsiMeetPackageSample-tvOS/Pods-JitsiMeetPackageSample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		575D42C16E5E55B873C1EA90 /* Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.release.xcconfig"; path = "Target Support Files/Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests/Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		700E70BD96DA75BFB5613108 /* Pods-JitsiMeetPackageSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitsiMeetPackageSample.release.xcconfig"; path = "Target Support Files/Pods-JitsiMeetPackageSample/Pods-JitsiMeetPackageSample.release.xcconfig"; sourceTree = "<group>"; };
-		73131E22B845CB6B7A10BED8 /* libPods-JitsiMeetPackageSample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JitsiMeetPackageSample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A277EF55B9810AC6C03BC43 /* Pods-JitsiMeetPackageSample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitsiMeetPackageSample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-JitsiMeetPackageSample-tvOS/Pods-JitsiMeetPackageSample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		94E17A0B0EC93B2553F6708D /* Pods-JitsiMeetPackageSample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitsiMeetPackageSample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-JitsiMeetPackageSample-tvOSTests/Pods-JitsiMeetPackageSample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A134CDE8CE76C4CE8EBDF8F4 /* Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests/Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A986E2B3A4A1FB5F1F7F283B /* libPods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B853BC7F20995824628C55F4 /* libPods-JitsiMeetPackageSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JitsiMeetPackageSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F737CCAE2AEFCE2BC89084F0 /* Pods-JitsiMeetPackageSample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitsiMeetPackageSample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-JitsiMeetPackageSample-tvOSTests/Pods-JitsiMeetPackageSample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC25C421FF68F0828606D97A /* libPods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8316F8B702809E52C9ECB8AC /* libPods-JitsiMeetPackageSample-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBB848AE3D8A3220610CB682 /* libPods-JitsiMeetPackageSample-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +127,6 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				B853BC7F20995824628C55F4 /* libPods-JitsiMeetPackageSample.a */,
-				A986E2B3A4A1FB5F1F7F283B /* libPods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.a */,
-				132BCFDF87CA670CE83CF46B /* libPods-JitsiMeetPackageSample-tvOS.a */,
-				73131E22B845CB6B7A10BED8 /* libPods-JitsiMeetPackageSample-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,14 +169,7 @@
 			children = (
 				06A83925740235756653CE32 /* Pods-JitsiMeetPackageSample.debug.xcconfig */,
 				700E70BD96DA75BFB5613108 /* Pods-JitsiMeetPackageSample.release.xcconfig */,
-				A134CDE8CE76C4CE8EBDF8F4 /* Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.debug.xcconfig */,
-				575D42C16E5E55B873C1EA90 /* Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.release.xcconfig */,
-				55E9CE48C8159578611A7D64 /* Pods-JitsiMeetPackageSample-tvOS.debug.xcconfig */,
-				8A277EF55B9810AC6C03BC43 /* Pods-JitsiMeetPackageSample-tvOS.release.xcconfig */,
-				94E17A0B0EC93B2553F6708D /* Pods-JitsiMeetPackageSample-tvOSTests.debug.xcconfig */,
-				F737CCAE2AEFCE2BC89084F0 /* Pods-JitsiMeetPackageSample-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,11 +180,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "JitsiMeetPackageSampleTests" */;
 			buildPhases = (
-				2BF5236AA0A5186A559DEB24 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5C4D3AB73C463BEC16644474 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,7 +219,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "JitsiMeetPackageSample-tvOS" */;
 			buildPhases = (
-				4C2C660BCE31CBE9707A89A3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +238,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "JitsiMeetPackageSample-tvOSTests" */;
 			buildPhases = (
-				5839A2342EAD798125752D31 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -294,6 +265,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = LM4JHW3HMK;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -377,28 +349,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2BF5236AA0A5186A559DEB24 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,68 +363,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		4C2C660BCE31CBE9707A89A3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JitsiMeetPackageSample-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5839A2342EAD798125752D31 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JitsiMeetPackageSample-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5C4D3AB73C463BEC16644474 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests/Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests/Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A7271E0701695202E08799AD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -482,11 +370,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JitsiMeetPackageSample/Pods-JitsiMeetPackageSample-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JitsiMeetSDK/JitsiMeetSDK.framework/JitsiMeetSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/WebRTC/WebRTC.framework/WebRTC",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JitsiMeetSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -620,7 +510,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A134CDE8CE76C4CE8EBDF8F4 /* Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -643,7 +532,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 575D42C16E5E55B873C1EA90 /* Pods-JitsiMeetPackageSample-JitsiMeetPackageSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -668,6 +556,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LM4JHW3HMK;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -680,7 +569,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.JitsiMeetPackageSample;
 				PRODUCT_NAME = JitsiMeetPackageSample;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -695,6 +584,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LM4JHW3HMK;
 				INFOPLIST_FILE = JitsiMeetPackageSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -702,7 +592,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.JitsiMeetPackageSample;
 				PRODUCT_NAME = JitsiMeetPackageSample;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -711,9 +601,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55E9CE48C8159578611A7D64 /* Pods-JitsiMeetPackageSample-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -729,7 +617,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.JitsiMeetPackageSample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.JitsiMeetPackageSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -739,9 +627,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A277EF55B9810AC6C03BC43 /* Pods-JitsiMeetPackageSample-tvOS.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -757,7 +643,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.JitsiMeetPackageSample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.JitsiMeetPackageSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -767,7 +653,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94E17A0B0EC93B2553F6708D /* Pods-JitsiMeetPackageSample-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -794,7 +679,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F737CCAE2AEFCE2BC89084F0 /* Pods-JitsiMeetPackageSample-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
