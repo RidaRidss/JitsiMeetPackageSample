@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "703270396987",
+    "firebase_url": "https://teamingway-prod.firebaseio.com",
+    "project_id": "teamingway-prod",
+    "storage_bucket": "teamingway-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703270396987:android:69cec9daa8033261e5281e",
+        "android_client_info": {
+          "package_name": "com.teamingway.android.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703270396987-9lcc33d155m3hocs9ni1vvih695r7645.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-9ARBy56RDf3UE2tCXxoVNeKyxGMbZ2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703270396987-9lcc33d155m3hocs9ni1vvih695r7645.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "703270396987-n7goefa6rf0d2a327kgq8cevr1h98vb1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jitsimeetpackagesample",
+                "app_store_id": "1482418481"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703270396987:android:5baf36da37969816e5281e",
+        "android_client_info": {
+          "package_name": "com.jitsimeetpackagesample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703270396987-kvccggt84emuqi9pptvmn0as24m9ctqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jitsimeetpackagesample",
+            "certificate_hash": "359d097937d71d5d9874fc883b1f4636c90dac94"
+          }
+        },
+        {
+          "client_id": "703270396987-9lcc33d155m3hocs9ni1vvih695r7645.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-9ARBy56RDf3UE2tCXxoVNeKyxGMbZ2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703270396987-9lcc33d155m3hocs9ni1vvih695r7645.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "703270396987-n7goefa6rf0d2a327kgq8cevr1h98vb1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jitsimeetpackagesample",
+                "app_store_id": "1482418481"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

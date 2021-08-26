@@ -14,8 +14,18 @@ import androidx.annotation.Nullable;
 import android.util.Log;
 import androidx.multidex.MultiDexApplication;
 
+import org.unimodules.adapters.react.ModuleRegistryAdapter;
+import org.unimodules.adapters.react.ReactModuleRegistryProvider;
+import org.unimodules.core.interfaces.SingletonModule;
+
+import com.wix.reactnativekeyboardinput.KeyboardInputPackage;
+
+import com.nozbe.watermelondb.WatermelonDBPackage;
+import com.reactnativecommunity.viewpager.RNCViewPagerPackage;
+import androidx.multidex.MultiDexApplication;
 
 public class MainApplication extends MultiDexApplication implements ReactApplication {
+  private final ReactModuleRegistryProvider mModuleRegistryProvider = new ReactModuleRegistryProvider(new BasePackageList().getPackageList(), null);
 
   private final ReactNativeHost mReactNativeHost =
       new ReactNativeHost(this) {
@@ -28,10 +38,16 @@ public class MainApplication extends MultiDexApplication implements ReactApplica
         protected List<ReactPackage> getPackages() {
           @SuppressWarnings("UnnecessaryLocalVariable")
           List<ReactPackage> packages = new PackageList(this).getPackages();
-          packages.add(new com.ocetnik.timer.BackgroundTimerPackage());
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
+          packages.add(new WatermelonDBPackage());
+          packages.add(new RNCViewPagerPackage());
+          packages.add(new KeyboardInputPackage(MainApplication.this));
           packages.add(new ActivityStarterReactPackage());
+          List<ReactPackage> unimodules = Arrays.<ReactPackage>asList(
+          new ModuleRegistryAdapter(mModuleRegistryProvider)
+      );
+      packages.addAll(unimodules);
           return packages;
         }
 

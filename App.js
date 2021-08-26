@@ -22,11 +22,21 @@ import {
 import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
+import AsyncStorage from '@react-native-community/async-storage';
 
 
 class App extends React.Component {
 constructor(props) {
   super(props);
+}
+
+async componentDidMount() {
+		try {
+      let id = 2312;
+			 AsyncStorage.setItem('workspaceId', id.toString());
+		} catch (error) {
+
+		}
 }
   render(){
     // const {joined} = this.state;
@@ -38,6 +48,9 @@ constructor(props) {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <View style={styles.body}>
+          <Text style={styles.sectionDescription}>
+                    "Simple React Native App (v-0.62)"
+             </Text>
                 <TouchableOpacity
                   onPress={() => {
                     // this.setState({joined : true});
@@ -46,7 +59,7 @@ constructor(props) {
                   
                 >
                   <Text style={styles.sectionDescription}>
-                    "Simple React Native App (v-0.62)"
+                 Join Meeting
              </Text>
                 </TouchableOpacity>
           </View>

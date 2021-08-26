@@ -3,10 +3,16 @@ module.exports = {
 		ios: {},
 		android: {}, // grouped into "project"
 	  },
-	dependencies: {
-		'react-native-background-timer': {
+	  dependencies: {
+		'react-native-keyboard-input': {
 			platforms: {
 				android: null
+			}
+		},
+		'@nozbe/watermelondb': {
+			platforms: {
+				android: null,
+				ios: null
 			}
 		}
 	}
